@@ -1,12 +1,51 @@
 .debug{
-  border: 1px solid black;
-  height: 52px;
+
+}
+
+.navbar, .navbar-default{
+  background-color: white;
+  border-color: #0000;
+}
+.no-margin{
+  margin-bottom: 0px;
 }
 
 .logo-img{
   height: 20px;
 }
 
+.custom-container{
+  height: 800px;
+}
+
+.jumbotron{
+  background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+  background-size: cover;
+}
+
+.pd-50{
+  padding-top: 50px;
+}
+
 .middlenav{
   padding-left: 10%;
+}
+
+.login-Card{
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+.login-icon{
+  height: 15px;
+  float: left;
+}
+.create{
+  background-color: #579AFF;
+}
+
+.prova{
+  width: 100%;
+  border-radius: 3px;
+  margin-bottom: 10px;
 }
