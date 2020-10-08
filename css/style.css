@@ -1,10 +1,37 @@
 .body{
   font-family: 'Lora', serif;
+  font-size: 2rem;
 }
 .navbar, .navbar-default{
   background-color: white;
   border-color: #0000;
 }
+
+.navbar-default .navbar-toggle{
+  border-color: #0000;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #0066FF;
+}
+
+.debug{
+  border: 1px solid black;
+}
+.login{
+  border: 0px  solid transparent;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: #051D4F;
+  font-weight: bold;
+}
+
+.sign-up-button {
+  border: 1px solid #0066FF;
+  color: #0066FF;
+}
+
 .no-margin{
   margin-bottom: 0px;
 }
@@ -31,11 +58,39 @@
 .jumbotron p{
   color: #BACCFF;
 }
+h2{
+  color: #1F3460;
+font-weight: bold;
+text-decoration: none;
+}
 
+h4{
+  color: #1F3460;
+font-weight: bold;
+text-decoration: none;
+}
 h6{
   text-align: center;
   color: #74809B;
   font-weight: bold;
+}
+
+p {
+  color: #5C6A88;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+span{
+  color: #5C6A88;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.pd-30{
+  padding-top: 30px;
 }
 
 .pd-50{
@@ -43,7 +98,7 @@ h6{
 }
 
 .middlenav{
-  padding-left: 10%;
+  padding-left: 8%;
 }
 
 .login-Card{
@@ -86,11 +141,60 @@ h6{
 .partners{
   background-color: #F3F5F9;
 }
+
+.pd-64{
+  padding-top: 64px;
+  padding-bottom: 30px;
+}
 .logos{
   text-align: center;
 }
+
+.blue-h6{
+  color: #0066FF;
+}
+
+.slider{
+  text-align: center;
+}
+
+.slider > img
+{
+  width: 60%;
+}
+
 .prova{
   width: 100%;
   border-radius: 3px;
   margin-bottom: 10px;
+}
+
+.blue-dots{
+  text-align: center;
+}
+
+.dot{
+  background-color: blue;
+  border-radius: 50%;
+  width: 0.9rem;
+  height: 0.9rem;
+  padding: 0;
+  font-size: 0;
+}
+
+.ww{
+  background-color: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,72,197,1) 100%);
+    height: 800px;
+    z-index: 0;
+}
+
+.fa-lg{
+  color: blue;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
 }
