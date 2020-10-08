@@ -18,6 +18,7 @@
 .debug{
   border: 1px solid black;
 }
+
 .login{
   border: 0px  solid transparent;
 }
@@ -30,6 +31,10 @@
 .sign-up-button {
   border: 1px solid #0066FF;
   color: #0066FF;
+}
+
+.login-Card > p{
+  font-size: 5px;
 }
 
 .no-margin{
@@ -58,6 +63,13 @@
 .jumbotron p{
   color: #BACCFF;
 }
+
+.jumbotron span{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
 h2{
   color: #1F3460;
 font-weight: bold;
@@ -147,6 +159,10 @@ span{
 }
 .pdb-30{
   padding-bottom: 30px;
+}
+
+.pdb-15{
+  padding-bottom: 15px;
 }
 .logos{
   text-align: center;
