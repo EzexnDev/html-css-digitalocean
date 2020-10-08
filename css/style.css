@@ -219,3 +219,27 @@ footer{
 .icon-digital{
   width: 30px;
 }
+.footer-list > img{
+  display: block;
+  padding-bottom: 10px;
+}
+.footer-list > li {
+  font-weight: bold;
+  color: #A6ADBD;
+}
+
+.footer-list > span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer-list > p{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 600px) {
+  .footer-list{
+    text-align: center;
+  }
+}
