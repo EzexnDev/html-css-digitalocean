@@ -84,7 +84,6 @@ p {
 
 span{
   color: #5C6A88;
-  margin-bottom: 10px;
   font-size: 18px;
   font-weight: 200;
 }
@@ -172,6 +171,10 @@ span{
   color: white;
 }
 
+.server-list :not(:last-child){
+  border-bottom: 1px solid white;
+}
+
 .slider > img
 {
   width: 60%;
@@ -206,4 +209,13 @@ span{
 
 .fa-lg{
   color: blue;
+}
+
+
+footer{
+  background-color: #031C4E
+}
+
+.icon-digital{
+  width: 30px;
 }
